@@ -22,6 +22,6 @@ for username, password in hashmap.items():
     pyautogui.typewrite(password)
 
     pyautogui.press("enter")  
-    time.sleep(2)
+    #time.sleep(2)
 
 print("clients launched")
